@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #0073e6;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav p {
+    margin: 0;
+    font-size: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #0073e6;
+}
+
+/* Image and Video Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #0073e6;
+    color: #fff;
+    margin-top: 20px;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Keeps it sized to fit content */
+}
+
+figcaption {
+    text-align: center; /* Centers the caption */
+    font-size: 0.9em; /* Makes the caption text smaller than the body text */
+    margin-top: 5px; /* Adds a little spacing above the caption */
+}

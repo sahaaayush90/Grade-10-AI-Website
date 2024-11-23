@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI and Bias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Links -->
+    <header>
+        <h1>AI and Bias</h1>
+        <nav>
+            <p>
+                <b>Explore Other Pages:</b> 
+                <a href="page1.html">Introduction to AI</a> | 
+                <a href="page2.html">AI and Careers</a> | 
+                <a href="page3.html">AI and Bias</a> | 
+                <a href="page4.html">AI in Medical Diagnostics</a> | 
+                <a href="page5.html">The Future of AI in Medicine</a>
+                <a href="page6.html">Sources/References</a>
+            </p>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <main>
+        <h2>Understanding Bias in AI</h2>
+        <p>
+            Artificial Intelligence, while a powerful tool, is not immune to bias. Bias in AI occurs when algorithms produce 
+            unfair or discriminatory outcomes, often reflecting the biases present in the data they are trained on or the decisions 
+            of their creators. This issue is particularly concerning in areas like hiring, criminal justice, and healthcare, where biased 
+            AI can have serious social and ethical implications.
+        </p>
+
+        <h3>Bias in Healthcare Algorithms</h3>
+        <p>
+            One striking example is the 2019 study revealing bias in a widely used healthcare algorithm. The algorithm was designed to 
+            identify patients requiring additional support for high-risk care but disproportionately underestimated the needs of Black patients 
+            compared to white patients. Instead of assessing a patient's actual health condition, the algorithm relied on healthcare costs as 
+            a proxy for risk. Due to systemic inequities, Black patients often incur lower healthcare costs despite having comparable or worse 
+            health conditions, leading to their exclusion from essential care programs at higher rates than white patients. For example, 
+            correcting the algorithm to account for health disparities more than doubled the inclusion of Black patients in care programs.
+        </p>
+
+        <figure>
+            <img src="Doctor.jpg" alt="Healthcare Bias Example" width="400">
+            <figcaption>Correcting biases in healthcare AI can lead to better inclusion of marginalized groups.</figcaption>
+        </figure>
+
+        <h3>Dermatology Bias: The "White Lens" Phenomenon</h3>
+        <p>
+            Another example is the "white lens" phenomenon, which refers to the significant underrepresentation of dark skin in dermatology 
+            resources. Studies show that dark skin images make up only 4% to 18% of the total content in many dermatology databases. As a result, 
+            AI systems trained on these datasets often struggle to generalize, leading to a higher risk of missed diagnoses or incorrect 
+            predictions for patients with darker skin tones.
+        </p>
+        <p>
+            For instance, a study by JMIR Dermatology highlighted that AI models trained on more diverse datasets demonstrated improved 
+            diagnostic accuracy across skin tones. Additionally, researchers noted that the International Skin Imaging Collaboration (ISIC), 
+            a commonly used dataset for training dermatological AI models, predominantly includes images from populations with lighter skin tones 
+            (primarily from the United States, Europe, and Australia). This skewed data impacts the effectiveness of AI tools, as models fail to 
+            achieve robust diagnostic performance for patients with darker skin, further perpetuating healthcare inequities.
+        </p>
+
+        <h3>Efforts to Reduce Bias</h3>
+        <p>
+            To address these issues, researchers are applying deep learning techniques to create synthetic images replicating skin lesions on 
+            darker skin tones. Diversifying training data in this way enhances the reliability of AI-based skin cancer detection technologies, 
+            emphasizing the importance of equitable AI development.
+        </p>
+        <figure>
+            <img src="Skincolourdiversity.jpg" alt="Dermatology Bias Example" width="400">
+            <figcaption>AI tools must be trained on diverse datasets for better dermatology outcomes.</figcaption>
+        </figure>
+
+        <h3>Gender Bias in Surgical AI</h3>
+        <p>
+            Specifically in the surgical field, AI systems have been found to exhibit gender bias. For example, robotic surgery systems 
+            have shown variability in performance due to anatomical differences that are not adequately accounted for in their training data. 
+            This has led to less accurate outcomes for women in specific procedures, as these systems might not be as well-calibrated for 
+            variations in body structure that differ from the predominantly represented groups in training datasets.
+        </p>
+        <p>
+            Such biases can lead to disparities in the quality of care provided, as algorithms might not optimally predict or adapt to diverse 
+            patient anatomies. To address this, experts recommend diversifying training datasets and rigorously testing AI systems across a 
+            broader range of patient demographics to ensure equitable performance.
+        </p>
+        <figure>
+            <img src="GenderBias.jpg" alt="Gender Bias in Surgical AI" width="400">
+            <figcaption>Diversified datasets can improve AI-assisted surgical outcomes for all demographics.</figcaption>
+        </figure>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 AI Learning Project</p>
+    </footer>
+</body>
+</html>
